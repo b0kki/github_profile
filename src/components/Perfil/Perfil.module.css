@@ -1,0 +1,21 @@
+.header{
+    background-color: var(--mainColor);
+    padding: 180px 0 40px;
+    /* use these together to center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid var(--secondaryColor);
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 18px;
+    color: var(--secondaryColor);
+}
